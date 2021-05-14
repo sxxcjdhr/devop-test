@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorld {
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @RequestMapping(value = "/")
     public String getCheckListByHouse(){
         return "Hello, this is Azure Devops test from Apex";
     }
